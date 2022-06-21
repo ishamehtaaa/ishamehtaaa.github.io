@@ -4,8 +4,16 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
-nav {
+.navbar {
     display:flex;
     float: right;
-    
+    padding: 20px;
+    overflow: hidden;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color:darkgoldenrod;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 1px;
 }
