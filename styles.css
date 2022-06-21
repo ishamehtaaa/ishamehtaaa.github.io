@@ -9,6 +9,7 @@ body {
     float: right;
     padding: 20px;
     overflow: hidden;
+    position: fixed;
 }
 
 a {
