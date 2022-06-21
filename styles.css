@@ -12,7 +12,10 @@ body {
 }
 
 a {
-    padding: 20px;
+    display: flex;
+    margin: 20px;
+    
+
 }
 
 a:hover {
