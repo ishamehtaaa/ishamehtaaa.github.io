@@ -21,7 +21,8 @@ a {
 
 header {
     display: flex;
-    
+    justify-content: center;
+    align-items: center;
 }
 
 a:hover {
