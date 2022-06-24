@@ -27,6 +27,16 @@ a {
     margin-left: 30px;
 }
 
+.header_img {
+    max-height: 250px;
+    border-radius: 100%;
+    position: relative;
+    float: right;
+    z-index: 1;
+    top: -20px;
+    right: 100px;
+}
+
 a:hover {
     text-decoration: underline;
     text-decoration-color:darkgoldenrod;
