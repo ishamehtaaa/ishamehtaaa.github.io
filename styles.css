@@ -20,12 +20,12 @@ a {
 
 }
 
-.header {
+<!--.header {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 30px;
-}
+} -->
 
 .header_img {
     max-height: 250px;
