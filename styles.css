@@ -20,12 +20,10 @@ a {
 
 }
 
-header {
+.header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px;
-    padding: 5px;
 }
 
 a:hover {
