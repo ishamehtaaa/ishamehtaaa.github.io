@@ -16,8 +16,8 @@ body {
 a {
     display: flex;
     margin: 30px;
-
-
+    text-decoration: none;
+    color:darkgreen;
 }
 
 <!--.header {
