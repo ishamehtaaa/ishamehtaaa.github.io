@@ -45,6 +45,7 @@ a {
     z-index: 1;
     margin: auto;
     display: inline-block;
+    padding-bottom: 10px;
     float: right;
 
     
