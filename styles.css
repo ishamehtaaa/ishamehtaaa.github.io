@@ -42,10 +42,10 @@ a {
     border-radius: 100%;
     position: relative;
     z-index: 1;
-    margin: auto;
+    margin: 30px 40px;
     display: inline-block;
     float: right;
-    
+
     
 }
 
