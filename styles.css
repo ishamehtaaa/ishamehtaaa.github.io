@@ -59,9 +59,9 @@ a:hover {
 
 
 .nametag {
-    font-size: 20px;
+    font-size: 25px;
     text-align: left;
-    overflow:hidden;
+    overflow: hidden;
     margin-left: 50px;
     
 }
