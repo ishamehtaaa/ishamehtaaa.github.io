@@ -39,13 +39,13 @@ a {
 }
 
 .header_img {
-    max-height: 250px;
     border-radius: 100%;
     position: relative;
     z-index: 1;
     margin: auto;
     display: inline-block;
     float: right;
+    
     
 }
 
