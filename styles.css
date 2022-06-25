@@ -56,10 +56,16 @@ a:hover {
     text-underline-offset: 1px;
 }
 
+.name_div {
+    margin-right: 30px;
+}
+
 .nametag {
     font-size: 20px;
     text-align: center;
 }
+
+
 .aboutme {
     height: 100vh;
     width: 100vw;
