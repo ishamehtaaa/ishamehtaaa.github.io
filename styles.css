@@ -42,7 +42,7 @@ a {
     border-radius: 100%;
     position: relative;
     z-index: 1;
-    margin: 30px 40px;
+    margin: auto;
     display: inline-block;
     float: right;
 
