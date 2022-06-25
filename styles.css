@@ -43,7 +43,7 @@ a {
     border-radius: 100%;
     position: relative;
     z-index: 1;
-    margin: 30% 50%;
+    margin: auto;
     display: inline-block;
     float: right;
     
