@@ -25,10 +25,7 @@ a {
     color:darkgreen;
 }
 
-.full {
-    display: flex;
-    
-}
+
 
 .header {
     display: flex;
@@ -51,5 +48,4 @@ a:hover {
     text-decoration-color:darkgoldenrod;
     text-decoration-thickness: 3px;
     text-underline-offset: 1px;
-    background-color: aliceblue;
 }
