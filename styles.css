@@ -40,6 +40,7 @@ a {
     z-index: 1;
     margin: auto;
     display: inline-block;
+    float: right;
     
 }
 
@@ -50,6 +51,6 @@ a:hover {
     text-underline-offset: 1px;
 }
 
-.socialmedia {
-    margin-bottom: 30px;
+section {
+    margin-top: 30px;
 }
