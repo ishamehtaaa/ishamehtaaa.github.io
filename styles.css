@@ -38,7 +38,7 @@ a {
     background-color: wheat;
 }
 
-.header_img {
+figure {
     max-height: 240px;
     border-radius: 100%;
     position: relative;
@@ -61,7 +61,7 @@ a:hover {
 .nametag {
     font-size: 20px;
     text-align: center;
-    
+
 }
 
 
