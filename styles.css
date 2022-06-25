@@ -44,7 +44,7 @@ a {
     position: relative;
     z-index: 1;
     margin: auto;
-    display: inline-block;
+    display: flex;
     padding-bottom: 30px;
 
 }
