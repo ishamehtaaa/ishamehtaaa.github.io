@@ -39,6 +39,7 @@ a {
 }
 
 .header_img {
+    max-height: 240px;
     border-radius: 100%;
     position: relative;
     z-index: 1;
