@@ -8,7 +8,7 @@ body {
     font-size: 12px;
     color: darksalmon; 
     font-family: 'Lato', sans-serif;
-    background-color: wheat;
+    
 }
 
 .navbar {
@@ -35,6 +35,7 @@ a {
     text-align: center;
     height: 100vh;
     width: 100vw;
+    background-color: wheat;
 }
 
 .header_img {
@@ -56,7 +57,13 @@ a:hover {
     text-underline-offset: 1px;
 }
 
+.aboutme {
+    height: 100vh;
+    width: 100vw;
+    background-color: aliceblue;
+}
 section {
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
