@@ -41,13 +41,11 @@ a {
 .header_img {
     max-height: 240px;
     border-radius: 100%;
-    position: fixed;
-    z-index: 1;
+    position: static;
+    z-index: 3;
     margin-top: 60px;
-    margin-left: 450px;
+    margin-left: -185px;
     display: flex;
-    padding-bottom: 30px;
-
 }
 
 a:hover {
