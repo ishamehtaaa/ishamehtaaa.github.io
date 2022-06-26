@@ -41,9 +41,10 @@ a {
 .header_img {
     max-height: 240px;
     border-radius: 100%;
-    position: relative;
+    position: fixed;
     z-index: 1;
-    margin: auto;
+    margin-top: 60px;
+    margin-left: 450px;
     display: flex;
     padding-bottom: 30px;
 
@@ -62,7 +63,8 @@ a:hover {
     font-size: 25px;
     text-align: left;
     overflow: hidden;
-    margin-left: 250px;
+    margin-left: 505px;
+    margin-top: 375px;
     z-index: 4;
     
 }
