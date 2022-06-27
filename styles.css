@@ -30,6 +30,7 @@ a {
 
 
 .header {
+    display: flex;
     margin-top: 60px;
     text-align: center;
     height: 99vh;
@@ -44,6 +45,7 @@ a {
     z-index: 3;
     margin-top: 60px;
     margin-left: -185px;
+    display: flex;
 }
 
 a:hover {
@@ -68,7 +70,7 @@ a:hover {
 
 .caption {
     margin-top: 410px;
-    margin-left: 50px
+    margin-left: 50px;
 }
 
 
