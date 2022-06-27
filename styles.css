@@ -6,7 +6,7 @@
 
 body {
     font-size: 12px;
-    color: darksalmon; 
+    color: darkseagreen; 
     font-family: 'Lato', sans-serif;
     overflow: hidden;
 }
@@ -58,12 +58,13 @@ a:hover {
 
 
 .nametag {
-    font-size: 25px;
+    font-size: 30px;
     text-align: left;
     overflow: hidden;
     margin-left: 505px;
-    margin-top: 375px;
-    z-index: 4;
+    margin-top: 365px;
+    z-index: 5;
+    font-weight: bold;
     
 }
 
