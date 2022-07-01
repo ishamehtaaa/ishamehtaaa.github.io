@@ -41,7 +41,7 @@ a {
 .header_img {
     max-height: 240px;
     border-radius: 100%;
-    position: static;
+    position: absolute;
     z-index: 3;
     margin-top: 60px;
     margin-left: -185px;
@@ -65,12 +65,14 @@ a:hover {
     margin-top: 335px;
     z-index: 5;
     font-weight: bold;
+    position: absolute;
     
 }
 
 .caption {
     margin-top: 410px;
     margin-left: 50px;
+    position: absolute;
 }
 
 
