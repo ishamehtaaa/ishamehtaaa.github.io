@@ -81,6 +81,10 @@ a:hover {
     width: 100vw;
     background-color: aliceblue;
 }
+
+.h2top {
+    margin: 0px;
+}
 section {
     padding-bottom: 30px;
 }
