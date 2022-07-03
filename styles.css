@@ -58,10 +58,10 @@ a:hover {
 
 
 .nametag {
-    font-size: 30px;
+    font-size: 40px;
     text-align: left;
     overflow: hidden;
-    margin-left: 555px;
+    margin-left: 525px;
     margin-top: 335px;
     z-index: 5;
     font-weight: bold;
