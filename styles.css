@@ -44,7 +44,7 @@ a {
     position: absolute;
     z-index: 3;
     margin-top: 60px;
-    margin-left: 66vw;
+    margin-left: 40vw;
     display: flex;
 }
 
@@ -61,7 +61,7 @@ a:hover {
     font-size: 40px;
     text-align: left;
     overflow: hidden;
-    margin-left: 68vw;
+    margin-left: 42vw;
     margin-top: 335px;
     z-index: 5;
     font-weight: 600px;
@@ -71,7 +71,7 @@ a:hover {
 
 .caption {
     margin-top: 410px;
-    margin-left: 410px;
+    margin-left: 28vw;
     position: absolute;
 }
 
