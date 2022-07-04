@@ -86,6 +86,9 @@ a:hover {
     margin-top: 0px;
     margin-left: 555px;
     padding-top: 120px;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    text-decoration-thickness: 0.2em;
 
 }
 section {
