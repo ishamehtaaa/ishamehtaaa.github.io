@@ -84,12 +84,13 @@ a:hover {
 
 .h2top {
     margin-top: 0px;
-    margin-left: 570px;
+    margin-left: 535px;
     padding-top: 120px;
     text-decoration: underline;
     text-underline-offset: 7px;
     text-decoration-thickness: 0.2em;
     color: hsl(219,100%,69%);
+    font-size: 30px;
 
 }
 section {
