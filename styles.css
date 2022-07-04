@@ -64,7 +64,7 @@ a:hover {
     margin-left: 525px;
     margin-top: 335px;
     z-index: 5;
-    font-weight: bold;
+    font-weight: 600px;
     position: absolute;
     
 }
@@ -79,11 +79,14 @@ a:hover {
 .aboutme {
     height: 100vh;
     width: 100vw;
-    background-color: aliceblue;
+    background-color: hsl(0, 100%, 96%);
 }
 
 .h2top {
-    margin: 0px;
+    margin-top: 0px;
+    margin-left: 555px;
+    padding-top: 120px;
+
 }
 section {
     padding-bottom: 30px;
