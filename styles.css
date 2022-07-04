@@ -107,5 +107,20 @@ section {
 }
 
 .parame {
-    
+
+}
+
+.skills {
+    height: 100vh;
+    width: 100vw;
+    background-color: hsl(219,100%,69%);
+}
+.skilltitle {
+    margin-top: 0px;
+    margin-left: 523px;
+    padding-top: 120px;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    text-decoration-thickness: 0.2em;
+    font-size: 30px;
 }
