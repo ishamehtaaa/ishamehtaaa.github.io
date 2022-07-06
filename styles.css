@@ -24,7 +24,7 @@ a {
     display: flex;
     margin: 30px;
     text-decoration: none;
-    color:hsl(0, 100%, 65%);
+    color:hsl(0, 100%, 81%);
     font-weight: 100;
     font-size: 20px;
 }
@@ -39,6 +39,7 @@ a {
     width: 99vw;
     background-color: hsl(219, 100%, 94%);
     font-family: 'Cardo', sans-serif;
+    color: hsl(0, 100%, 81%);
 }
 
 .header_img {
@@ -96,7 +97,7 @@ a:hover {
     text-underline-offset: 7px;
     text-decoration-thickness: 0.2em;
     color: hsl(219,100%,69%);
-    font-size: 30px;
+    font-size: 33px;
 
 }
 section {
@@ -108,7 +109,11 @@ section {
 }
 
 .parame {
-
+    text-align: center;
+    margin-left: 175px;
+    margin-right: 175px;
+    font-size: 20px;
+    color: hsl(222, 100%, 74%);
 }
 
 .skills {
