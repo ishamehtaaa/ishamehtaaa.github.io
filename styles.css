@@ -39,7 +39,7 @@ a {
     width: 99vw;
     background-color: hsl(219, 100%, 94%);
     font-family: 'Cardo', sans-serif;
-    color: hsl(5, 100%, 69%);
+    color: hsl(5, 100%, 77%);
 }
 
 .header_img {
@@ -96,7 +96,7 @@ a:hover {
     text-underline-offset: 7px;
     text-decoration-thickness: 0.2em;
     color: hsl(219,100%,69%);
-    text-decoration-color: hsl(5, 100%, 69%);
+    text-decoration-color: hsl(5, 100%, 77%);
     font-size: 33px;
     text-align: center;
 
