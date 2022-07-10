@@ -120,7 +120,7 @@ section {
 .skills {
     height: 100vh;
     width: 100vw;
-    background-color: hhsl(219, 100%, 94%);
+    background-color: hsl(219, 100%, 94%);
 }
 .skilltitle {
     margin-top: 0px;
@@ -132,4 +132,13 @@ section {
     text-decoration-color: hsl(219, 100%, 69%);
     font-size: 33px;
     text-align: center;
+}
+.paraskill {
+    text-align: center;
+    margin-left: 175px;
+    margin-right: 175px;
+    font-size: 20px;
+    color: hsl(0, 95%, 73%);
+    margin-top: 50px;
+
 }
