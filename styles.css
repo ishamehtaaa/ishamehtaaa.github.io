@@ -153,9 +153,13 @@ section {
     padding-top: 20px;
 }
 
+.icons {
+    margin: 300px;
+}
 .sm_icons {
     width: 80px;
     height: 80px;
+    margin: 30px;
 }
 
 .pngicon {
