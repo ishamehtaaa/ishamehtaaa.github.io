@@ -143,11 +143,12 @@ section {
 
 }
 .socialmedia {
-    height: 50vh;
+    height: 43vh;
     width: 100vw;
 }
 
 .smtitle {
     text-align: center;
     font-size: 25px;
+    padding-top: 20px;
 }
