@@ -154,10 +154,11 @@ section {
 }
 
 .sm_icons {
-    x
+    width: 80px;
+    height: 80px;
 }
 
 .pngicon {
-    width: 30px;
-    height: 30px;
+    width: 65px;
+    height: 65px;
 }
