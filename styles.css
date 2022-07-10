@@ -124,10 +124,12 @@ section {
 }
 .skilltitle {
     margin-top: 0px;
-    margin-left: 523px;
     padding-top: 120px;
     text-decoration: underline;
     text-underline-offset: 7px;
     text-decoration-thickness: 0.2em;
-    font-size: 30px;
+    color: hsl(5, 100%, 77%);
+    text-decoration-color: hsl(5, 100%, 77%);
+    font-size: 33px;
+    text-align: center;
 }
