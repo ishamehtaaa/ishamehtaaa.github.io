@@ -151,15 +151,17 @@ section {
     text-align: center;
     font-size: 25px;
     padding-top: 20px;
+    padding-bottom: 30px;
 }
 
 .icons {
-    margin: 300px;
+    margin-left: 450px;
 }
 .sm_icons {
     width: 80px;
     height: 80px;
     margin: 30px;
+
 }
 
 .pngicon {
