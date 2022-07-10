@@ -156,3 +156,8 @@ section {
 .sm_icons {
     x
 }
+
+.pngicon {
+    width: 30px;
+    height: 30px;
+}
