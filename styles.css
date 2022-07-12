@@ -54,7 +54,7 @@ body {
     width: 99vw;
     background-color: hsl(219, 100%, 94%);
     font-family: 'Cardo', sans-serif;
-    color: hsl(5, 100%, 77%);
+    color: hsl(4, 100%, 68%);
 }
 
 .header_img {
@@ -128,7 +128,7 @@ section {
     margin-left: 175px;
     margin-right: 175px;
     font-size: 20px;
-    color: hsl(222, 100%, 74%);
+    color: hsl(282, 100%, 70%);
     margin-top: 50px;
 }
 
