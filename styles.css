@@ -4,8 +4,17 @@
 }
 
 @media screen and (max-width:480px) {
-    
-    
+    img.header_img {
+        right: 60px
+    }
+    h1.nametag {
+        margin-left: 50px;
+    }
+    h2.caption {
+        height: 100vh;
+        width: 100vw;
+        margin-left: auto;
+    }
 }
 
 
