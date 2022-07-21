@@ -3,6 +3,10 @@
     scroll-behavior: smooth;
 }
 
+.wrapper {
+    overflow: hidden;
+}
+
 @media screen and (max-width:480px) {
     img.header_img {
         right: 60px
