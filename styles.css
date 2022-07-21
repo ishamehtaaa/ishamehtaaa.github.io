@@ -24,6 +24,14 @@
         width: 100vw;
         margin-left: auto;
     }
+    p.par2 {
+        top: 30px;
+
+    }
+
+    p.par3 {
+        top: 30px
+    }
 }
 
 
