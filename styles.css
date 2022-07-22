@@ -20,7 +20,7 @@
         margin-left: auto;
     }
     p.parame {
-        height: 100vh;
+        height: vh;
         width: 100vw;
         margin-left: auto;
     }
@@ -32,7 +32,7 @@
     p.par3 {
         top: 30px
     }
-}*/
+}
 
 
 
