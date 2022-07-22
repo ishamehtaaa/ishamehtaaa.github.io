@@ -24,11 +24,22 @@
         width: 100vw;
         margin-left: auto;
         font-size: 18px;
-        margin-top: 15px;
+        margin-top: 25px;
+        margin-bottom: 35px;
     }
     p.parame.par2 {
-        margin-bottom: 50px;
+        margin-bottom: 35px;
     }
+
+    p.parame.par3 {
+        margin-bottom: 750px;
+        z-index: 3;
+        margin-top: 20px;
+    }
+    h2.h2top {
+        padding-top: 30px;
+    }
+}
 
     p.parame.par3 {
         margin-bottom: 750px;
