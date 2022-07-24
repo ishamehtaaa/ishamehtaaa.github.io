@@ -9,7 +9,7 @@
 
 @media screen and (max-width:480px) {
     img.header_img {
-        right: 60px
+        right: 80px;
     }
     h1.nametag {
         margin-left: 50px;
