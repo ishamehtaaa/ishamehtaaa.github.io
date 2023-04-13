@@ -87,7 +87,6 @@ body {
 
 .header {
     display: flex;
-    margin-top: 60px;
     text-align: center;
     height: 99vh;
     width: 99vw;
@@ -127,9 +126,6 @@ a:hover {
 }
 
 .caption {
-    margin-top: 410px;
-    margin-left: 28vw;
-    position: absolute;
     font-weight: 100;
 }
 
