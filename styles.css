@@ -7,6 +7,10 @@
     overflow: hidden;
 }
 
+:root{
+    --font-family-base: "Inter",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;
+}
+
 @media screen and (max-width:480px) {
     img.header_img {
         right: 80px;
@@ -57,7 +61,7 @@
 body {
     font-size: 12px;
     color: hsl(0, 95%, 73%); 
-    font-family: 'DM Serif Display', sans-serif;
+    font-family: var(--font-family-base)
     overflow-x: hidden;
     margin: 0px;
 }
