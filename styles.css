@@ -58,6 +58,11 @@ body {
     margin: 0px;
 }
 
+.navi {
+    height: 7rem;
+    position: relative;
+}
+
 .navbar {
     display:flex;
     float: right;
