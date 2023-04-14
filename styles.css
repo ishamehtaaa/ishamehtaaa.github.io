@@ -12,12 +12,6 @@
 }
 
 @media screen and (max-width:480px) {
-    img.header_img {
-        right: 80px;
-    }
-    h1.nametag {
-        margin-left: 85px;
-    }
     h2.caption {
         margin-left: auto;
     }
@@ -94,10 +88,10 @@ body {
 .header_img {
     max-height: 240px;
     border-radius: 100%;
-    position: absolute;
+    position: relative;
     z-index: 3;
     margin-top: 60px;
-    margin-left: 40vw;
+    margin-left: 22vw;
     display: flex;
 }
 
@@ -117,7 +111,7 @@ a:hover {
     margin-top: 335px;
     z-index: 5;
     font-weight: 100;
-    position: absolute;
+    position: relative;
     
 }
 
