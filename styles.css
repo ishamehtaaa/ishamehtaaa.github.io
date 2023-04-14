@@ -85,7 +85,7 @@ body {
     position: relative;
     display: flex;
     text-align: center;
-    height: 99vh;
+    height: 90vh;
     width: 99vw;
     background-color: hsl(219, 100%, 94%);
     color: hsl(4, 100%, 68%);
@@ -130,10 +130,11 @@ a:hover {
 
 .caption{
     position: relative;
-    top: 65%;
+    top: 35%;
     left: 50%;
     font-weight: 100;
     height: fit-content;
+    transform: translate(-35%, 0);
 }
 
 .caption {
