@@ -77,6 +77,9 @@ body {
 
 
 .header {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
     display: flex;
     text-align: center;
     height: 99vh;
@@ -85,14 +88,21 @@ body {
     color: hsl(4, 100%, 68%);
 }
 
+.full {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
 .header_img {
     max-height: 240px;
     border-radius: 100%;
     position: relative;
+    z-index: 10;
+    max-height: 240px;
+    border-radius: 100%;
+    position: relative;
     z-index: 3;
-    margin-top: 60px;
-    margin-left: 22vw;
-    display: flex;
 }
 
 a:hover {
@@ -115,8 +125,20 @@ a:hover {
     
 }
 
-.caption {
+.caption{
+    position: relative;
+    top: 65%;
+    left: 50%;
     font-weight: 100;
+    height: fit-content;
+    width: fit-content;
+    transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+}
+
+.caption {
+    
 }
 
 
