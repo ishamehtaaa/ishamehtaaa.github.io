@@ -59,7 +59,7 @@ body {
 }
 
 .navi {
-    height: 7rem;
+    height: 6rem;
     position: relative;
 }
 
@@ -134,7 +134,7 @@ a:hover {
     left: 50%;
     font-weight: 100;
     height: fit-content;
-    transform: translate(-40%, 0);
+    transform: translate(-38%, 0);
 }
 
 .caption {
