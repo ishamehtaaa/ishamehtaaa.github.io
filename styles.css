@@ -76,7 +76,6 @@ body {
     display: flex;
     margin: 30px;
     text-decoration: none;
-    color:hsl(0, 100%, 81%);
     font-weight: 100;
     font-size: 20px;
 }
