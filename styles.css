@@ -121,7 +121,6 @@ a:hover {
     font-size: 50px;
     width: 100%;
     overflow: hidden;
-    margin-top: 335px;
     z-index: 5;
     font-weight: 100;
     position: relative;
@@ -135,12 +134,8 @@ a:hover {
     font-weight: 100;
     height: fit-content;
     transform: translate(-38%, 0);
-}
-
-.caption {
     
 }
-
 
 .aboutme {
     height: 100vh;
