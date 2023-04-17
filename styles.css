@@ -99,12 +99,13 @@ body {
 .header_img {
     max-height: 240px;
     border-radius: 100%;
-    position: relative;
-    z-index: 10;
     max-height: 240px;
     border-radius: 100%;
     position: relative;
     z-index: 3;
+    left: 50%;
+    top: 15%
+    transform: translate(-50%, 0)
 }
 
 a:hover {
