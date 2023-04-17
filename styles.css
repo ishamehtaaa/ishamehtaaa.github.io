@@ -61,6 +61,7 @@ body {
 .navi {
     height: 6rem;
     position: relative;
+    background: rgb(252,235,235);
 }
 
 .navbar {
