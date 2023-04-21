@@ -124,6 +124,7 @@ a:hover {
     z-index: 5;
     font-weight: 100;
     position: relative;
+    height: fit-content
     
 }
 
