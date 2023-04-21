@@ -124,7 +124,10 @@ a:hover {
     z-index: 5;
     font-weight: 100;
     position: relative;
-    height: fit-content
+    height: fit-content;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, 0);
     
 }
 
