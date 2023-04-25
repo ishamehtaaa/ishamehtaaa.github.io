@@ -11,6 +11,10 @@
     --font-family-base: "Inter",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;
 }
 
+div {
+    display: block;
+}
+
 @media screen and (max-width:480px) {
     h2.caption {
         margin-left: auto;
@@ -79,35 +83,34 @@ body {
     font-size: 20px;
 }
 
-
-
 .header {
-    position: relative;
-    display: flex;
-    text-align: center;
-    height: 90vh;
-    width: 99vw;
-    background-color: hsl(219, 100%, 94%);
-    color: hsl(4, 100%, 68%);
+    padding-top: 125px;
+    padding-bottom: 70px;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
 }
 
-.full {
-    position: relative;
-    left: 50%;
-    transform: translate(-50%, 0);
-}
 
 .header_img {
-    max-height: 240px;
+    max-height: 250px;
+    background-color: #E4C0C3;
     border-radius: 100%;
-    max-height: 240px;
-    border-radius: 100%;
+    float: right;
     position: relative;
-    z-index: 3;
-    left: 50%;
-    top: 15%;
-    transform: translate(-50%, 0);
-}
+    z-index: 1;
+    top: -60px;
+    right: 100px;
+  }
+  
+  @media screen and (max-width: 1300px) {
+    .header_img {
+      max-height: 210px;
+      position: static;
+      float: none;
+      display: block;
+      margin: auto;
+    }
+  }
 
 a:hover {
     text-decoration: underline;
@@ -116,20 +119,36 @@ a:hover {
     text-underline-offset: 1px;
 }
 
-
-
 .nametag {
-    font-size: 35px;
-    overflow: hidden;
-    z-index: 5;
-    font-weight: 100;
-    position: relative;
-    height: fit-content;
-    left: 220%;
-    top: 80%;
-    transform: translate(-50%, 0);
-    
-}
+    text-align: left;
+    margin-left: 100px;
+  }
+  
+  @media screen and (max-width: 1300px) {
+    .nametag {
+      text-align: center;
+      margin-left: 0px;
+    }
+  }
+
+  .left_para {
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 40%;
+  }
+  
+  @media screen and (max-width: 1300px) {
+    .left_para {
+      margin-right: 100px;
+      text-align: center;
+    }
+  }
+  
+  @media screen and (max-width: 425px) {
+    .left_para {
+      margin: 0 25px;
+    }
+  }
 
 .caption{
     position: relative;
