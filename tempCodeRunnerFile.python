@@ -1,16 +1,21 @@
-menu = {
-    1: {"name": 'espresso',
-        "price": 1.99},
-    2: {"name": 'coffee', 
-        "price": 2.50},
-    3: {"name": 'cake', 
-        "price": 2.79},
-    4: {"name": 'soup', 
-        "price": 4.50},
-    5: {"name": 'sandwich',
-        "price": 4.99}
-}
 
-order = menu.values()
+def colors():
+    return [
+        "black", 
+        "brown", 
+        "red", 
+        "orange", 
+        "yellow", 
+        "green", 
+        "blue", 
+        "violet", 
+        "grey", 
+        "white",
+    ]
 
-print(order)
+def color_code(color):
+        bonk = colors()
+        return bonk.index(color)
+    
+
+print(color_code("red"))
