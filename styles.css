@@ -213,8 +213,8 @@ section {
     text-decoration: underline;
     text-underline-offset: 7px;
     text-decoration-thickness: 0.2em;
-    color: #F1F6F9
-    text-decoration-color: hsl(219, 100%, 69%);
+    color: #F1F6F9;
+    text-decoration-color: #F1F6F9;
     font-size: 33px;
     text-align: center;
 }
