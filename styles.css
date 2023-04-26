@@ -11,6 +11,10 @@
     --font-family-base: "Inter",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;
 }
 
+a {
+    color: #a07178;
+}
+
 div {
     display: block;
 }
