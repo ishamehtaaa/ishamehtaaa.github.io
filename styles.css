@@ -205,7 +205,7 @@ section {
 .skills {
     height: 100vh;
     width: 100vw;
-    background-color: hsl(210, 100%, 94%);
+    background-color: #212A3E;
 }
 .skilltitle {
     margin-top: 0px;
@@ -213,7 +213,7 @@ section {
     text-decoration: underline;
     text-underline-offset: 7px;
     text-decoration-thickness: 0.2em;
-    color: hsl(5, 100%, 77%);
+    color: #F1F6F9
     text-decoration-color: hsl(219, 100%, 69%);
     font-size: 33px;
     text-align: center;
@@ -223,7 +223,7 @@ section {
     margin-left: 175px;
     margin-right: 175px;
     font-size: 20px;
-    color: hsl(0, 95%, 73%);
+    color: #F1F6F9;
     margin-top: 50px;
 
 }
