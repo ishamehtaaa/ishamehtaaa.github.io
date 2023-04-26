@@ -171,7 +171,7 @@ a:hover {
 .aboutme {
     height: 100vh;
     width: 100vw;
-    background-color: hsl(0, 100%, 96%);
+    background-color: #F1F6F9;
 }
 
 .h2top {
@@ -180,8 +180,8 @@ a:hover {
     text-decoration: underline;
     text-underline-offset: 7px;
     text-decoration-thickness: 0.2em;
-    color: hsl(219,100%,69%);
-    text-decoration-color: hsl(5, 100%, 77%);
+    color: #212A3E;
+    text-decoration-color: #B75952;
     font-size: 33px;
     text-align: center;
 
