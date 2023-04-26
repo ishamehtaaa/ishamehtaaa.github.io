@@ -65,7 +65,7 @@ body {
 .navi {
     height: 6rem;
     position: relative;
-    background: rgb(252,235,235);
+    background: #212A3E;
 }
 
 .navbar {
@@ -88,6 +88,7 @@ body {
     padding-bottom: 70px;
     width: 100vw;
     margin-left: calc(50% - 50vw);
+    background: #212A3E;
 }
 
 
@@ -135,6 +136,8 @@ a:hover {
     text-align: left;
     margin-left: 100px;
     margin-right: 40%;
+    color: white;
+    
   }
   
   @media screen and (max-width: 1300px) {
