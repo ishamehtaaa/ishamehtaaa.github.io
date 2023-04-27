@@ -229,27 +229,70 @@ section {
     margin-top: 50px;
 
 }
-.socialmedia {
-    height: 43vh;
-    width: 100vw;
-}
 
 .smtitle {
     text-align: center;
     font-size: 25px;
-    padding-top: 20px;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+  .flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  
+  .flex container {
+    padding: 0 5%;
+  }
+  
+  .flex container li {
+    margin: 2% 0;
+    max-width: 50ch;
+  }
+  
+  .socials {
+    padding-top: 30px;
     padding-bottom: 30px;
-}
-
-.icons {
-    margin-left: 450px;
-}
-.sm_icons {
-    width: 80px;
-    height: 80px;
-    margin: 30px;
-
-}
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+  }
+  
+  .socials h1,
+  .socials h3,
+  .socials h4 {
+    text-align: center;
+  }
+  
+  .icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    text-align: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    padding: 2% 10%;
+  }
+  
+  @media screen and (max-width: 900px) {
+    .icons {
+      -webkit-box-pack: space-evenly;
+          -ms-flex-pack: space-evenly;
+              justify-content: space-evenly;
+    }
+  }
 
 .pngicon {
     width: 65px;
