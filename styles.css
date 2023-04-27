@@ -133,7 +133,7 @@ a:hover {
     .nametag {
       text-align: center;
       margin-left: 0px;
-      color: #f1f6f9;
+      color: #F9EAE1;
     }
   }
 
@@ -141,7 +141,7 @@ a:hover {
     text-align: left;
     margin-left: 100px;
     margin-right: 40%;
-    color: white;
+    color: #F9EAE1;
     font-size: 14px;
     
   }
@@ -224,7 +224,7 @@ section {
     margin-left: 175px;
     margin-right: 175px;
     font-size: 20px;
-    color: #F1F6F9;
+    color: #F9EAE1;
     margin-top: 50px;
 
 }
