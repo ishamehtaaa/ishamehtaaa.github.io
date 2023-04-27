@@ -91,6 +91,7 @@ body {
     padding-top: 125px;
     padding-bottom: 70px;
     width: 100vw;
+    height: 100vw;
     margin-left: calc(50% - 50vw);
     background: #212A3E;
 }
