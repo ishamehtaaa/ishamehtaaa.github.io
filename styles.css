@@ -235,6 +235,12 @@ section {
     font-size: 25px;
 }
 
+.pngicon {
+  width: 65px;
+  height: 65px;
+  max-width: 65px;
+  max-height: 65px;
+}
 
 
 @media screen and (max-width: 1200px) {
@@ -294,7 +300,4 @@ section {
     }
   }
 
-.pngicon {
-    width: 65px;
-    height: 65px;
-}
+
