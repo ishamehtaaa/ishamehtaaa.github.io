@@ -544,36 +544,88 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.end-10 {
+  inset-inline-end: 2.5rem;
+}
+
+.end-1 {
+  inset-inline-end: 0.25rem;
+}
+
+.end-5 {
+  inset-inline-end: 1.25rem;
+}
+
+.end-px {
+  inset-inline-end: 1px;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.top-0 {
+  top: 0px;
+}
+
 .col-span-3 {
   grid-column: span 3 / span 3;
 }
 
-.row-span-1 {
-  grid-row: span 1 / span 1;
+.row-span-4 {
+  grid-row: span 4 / span 4;
 }
 
-.row-span-9 {
-  grid-row: span 9 / span 9;
+.float-end {
+  float: inline-end;
+}
+
+.float-right {
+  float: right;
+}
+
+.flex {
+  display: flex;
 }
 
 .grid {
   display: grid;
 }
 
+.h-7 {
+  height: 1.75rem;
+}
+
 .h-screen {
   height: 100vh;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .grid-flow-col {
   grid-auto-flow: column;
 }
 
-.grid-rows-10 {
-  grid-template-rows: repeat(10, minmax(0, 1fr));
+.grid-rows-4 {
+  grid-template-rows: repeat(4, minmax(0, 1fr));
 }
 
-.border-b-2 {
-  border-bottom-width: 2px;
+.justify-start {
+  justify-content: flex-start;
+}
+
+.border-b {
+  border-bottom-width: 1px;
 }
 
 .border-black {
@@ -581,22 +633,69 @@ video {
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
+.bg-\[\#D9D9D9\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(217 217 217 / var(--tw-bg-opacity));
+}
+
 .bg-gray-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(156 163 175 / var(--tw-bg-opacity));
 }
 
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-\[url\(\'\/img\/hero-pattern\.svg\'\)\] {
-  background-image: url('/img/hero-pattern.svg');
-}
-
 .bg-\[url\(\'macos-background\.jpg\'\)\] {
   background-image: url('macos-background.jpg');
+}
+
+.p-5 {
+  padding: 1.25rem;
+}
+
+.p-0 {
+  padding: 0px;
+}
+
+.p-0\.5 {
+  padding: 0.125rem;
+}
+
+.p-1 {
+  padding: 0.25rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.pl-10 {
+  padding-left: 2.5rem;
+}
+
+.pr-5 {
+  padding-right: 1.25rem;
+}
+
+.pr-3 {
+  padding-right: 0.75rem;
+}
+
+.font-mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 * {
