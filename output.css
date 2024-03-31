@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.4.1 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.3 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -211,6 +211,8 @@ textarea {
   /* 1 */
   line-height: inherit;
   /* 1 */
+  letter-spacing: inherit;
+  /* 1 */
   color: inherit;
   /* 1 */
   margin: 0;
@@ -234,9 +236,9 @@ select {
 */
 
 button,
-[type='button'],
-[type='reset'],
-[type='submit'] {
+input:where([type='button']),
+input:where([type='reset']),
+input:where([type='submit']) {
   -webkit-appearance: button;
   /* 1 */
   background-color: transparent;
@@ -492,6 +494,10 @@ video {
   --tw-backdrop-opacity:  ;
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
 }
 
 ::backdrop {
@@ -542,6 +548,10 @@ video {
   --tw-backdrop-opacity:  ;
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
 }
 
 .absolute {
@@ -552,22 +562,6 @@ video {
   position: relative;
 }
 
-.end-10 {
-  inset-inline-end: 2.5rem;
-}
-
-.end-1 {
-  inset-inline-end: 0.25rem;
-}
-
-.end-5 {
-  inset-inline-end: 1.25rem;
-}
-
-.end-px {
-  inset-inline-end: 1px;
-}
-
 .right-0 {
   right: 0px;
 }
@@ -576,48 +570,8 @@ video {
   top: 0px;
 }
 
-.top-1\/2 {
-  top: 50%;
-}
-
-.right-1\/4 {
-  right: 25%;
-}
-
-.left-1\/4 {
-  left: 25%;
-}
-
-.left-20 {
-  left: 5rem;
-}
-
-.left-24 {
-  left: 6rem;
-}
-
-.col-span-3 {
-  grid-column: span 3 / span 3;
-}
-
-.col-span-4 {
-  grid-column: span 4 / span 4;
-}
-
-.col-span-6 {
-  grid-column: span 6 / span 6;
-}
-
-.col-span-8 {
-  grid-column: span 8 / span 8;
-}
-
 .col-span-10 {
   grid-column: span 10 / span 10;
-}
-
-.col-start-2 {
-  grid-column-start: 2;
 }
 
 .col-start-3 {
@@ -628,32 +582,12 @@ video {
   grid-column-start: 4;
 }
 
-.col-end-4 {
-  grid-column-end: 4;
-}
-
-.col-end-5 {
-  grid-column-end: 5;
-}
-
-.col-end-6 {
-  grid-column-end: 6;
-}
-
-.col-end-7 {
-  grid-column-end: 7;
-}
-
-.col-end-9 {
-  grid-column-end: 9;
-}
-
 .col-end-8 {
   grid-column-end: 8;
 }
 
-.row-span-4 {
-  grid-row: span 4 / span 4;
+.col-end-9 {
+  grid-column-end: 9;
 }
 
 .row-start-2 {
@@ -664,44 +598,12 @@ video {
   grid-row-start: 3;
 }
 
-.row-start-4 {
-  grid-row-start: 4;
-}
-
-.row-end-3 {
-  grid-row-end: 3;
-}
-
-.row-end-4 {
-  grid-row-end: 4;
-}
-
-.row-end-7 {
-  grid-row-end: 7;
-}
-
-.row-end-8 {
-  grid-row-end: 8;
-}
-
-.row-end-9 {
-  grid-row-end: 9;
-}
-
 .row-end-10 {
   grid-row-end: 10;
 }
 
-.float-end {
-  float: inline-end;
-}
-
-.float-right {
-  float: right;
-}
-
-.m-8 {
-  margin: 2rem;
+.row-end-8 {
+  grid-row-end: 8;
 }
 
 .flex {
@@ -712,11 +614,6 @@ video {
   display: grid;
 }
 
-.size-40 {
-  width: 10rem;
-  height: 10rem;
-}
-
 .h-7 {
   height: 1.75rem;
 }
@@ -725,72 +622,38 @@ video {
   height: 100vh;
 }
 
-.h-1\/5 {
-  height: 20%;
-}
-
-.h-3\/5 {
-  height: 60%;
-}
-
 .w-full {
   width: 100%;
-}
-
-.w-8\/12 {
-  width: 66.666667%;
-}
-
-.w-5\/12 {
-  width: 41.666667%;
-}
-
-.w-9\/12 {
-  width: 75%;
 }
 
 .cursor-pointer {
   cursor: pointer;
 }
 
-.grid-flow-col {
-  grid-auto-flow: column;
-}
-
-.grid-cols-4 {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-}
-
-.grid-cols-6 {
-  grid-template-columns: repeat(6, minmax(0, 1fr));
-}
-
-.grid-cols-8 {
-  grid-template-columns: repeat(8, minmax(0, 1fr));
-}
-
 .grid-cols-10 {
   grid-template-columns: repeat(10, minmax(0, 1fr));
-}
-
-.grid-rows-4 {
-  grid-template-rows: repeat(4, minmax(0, 1fr));
-}
-
-.grid-rows-8 {
-  grid-template-rows: repeat(8, minmax(0, 1fr));
 }
 
 .grid-rows-10 {
   grid-template-rows: repeat(10, minmax(0, 1fr));
 }
 
-.place-content-center {
-  place-content: center;
+.items-end {
+  align-items: flex-end;
 }
 
 .justify-start {
   justify-content: flex-start;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.space-x-5 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1.25rem * var(--tw-space-x-reverse));
+  margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .border {
@@ -811,48 +674,33 @@ video {
   background-color: rgb(217 217 217 / var(--tw-bg-opacity));
 }
 
-.bg-gray-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(156 163 175 / var(--tw-bg-opacity));
-}
-
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[url\(\)\] {
+  background-image: url();
+}
+
+.bg-\[url\(\"ishamehtaaa\.github\.io\/src\/macos-background\.jpg\"\)\] {
+  background-image: url("ishamehtaaa.github.io/src/macos-background.jpg");
+}
+
+.bg-\[url\(\'ishamehtaaa\.github\.io\/src\/macos-background\.jpg\'\)\] {
+  background-image: url('ishamehtaaa.github.io/src/macos-background.jpg');
+}
+
+.bg-\[url\(\'\.\/src\/macos-background\.jpg\'\)\] {
+  background-image: url('./src/macos-background.jpg');
+}
+
+.bg-\[url\(\'\.\/macos-background\.jpg\'\)\] {
+  background-image: url('./macos-background.jpg');
+}
+
 .bg-\[url\(\'macos-background\.jpg\'\)\] {
   background-image: url('macos-background.jpg');
-}
-
-.p-5 {
-  padding: 1.25rem;
-}
-
-.p-0 {
-  padding: 0px;
-}
-
-.p-0\.5 {
-  padding: 0.125rem;
-}
-
-.p-1 {
-  padding: 0.25rem;
-}
-
-.p-8 {
-  padding: 2rem;
-}
-
-.px-5 {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-}
-
-.py-1 {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
 }
 
 .px-3 {
@@ -860,24 +708,44 @@ video {
   padding-right: 0.75rem;
 }
 
-.pl-10 {
-  padding-left: 2.5rem;
-}
-
-.pr-5 {
-  padding-right: 1.25rem;
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 
 .pr-3 {
   padding-right: 0.75rem;
 }
 
-.font-mono {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+.pr-5 {
+  padding-right: 1.25rem;
+}
+
+.font-body {
+  font-family: Charcoal;
+}
+
+.text-10xl {
+  font-size: 4rem;
 }
 
 .font-bold {
   font-weight: 700;
+}
+
+.tracking-wide {
+  letter-spacing: 0.025em;
+}
+
+.text-sky-700 {
+  --tw-text-opacity: 1;
+  color: rgb(3 105 161 / var(--tw-text-opacity));
+}
+
+@font-face {
+  font-family: 'Charcoal';
+
+  src: url(src/charcoal.ttf), format('truetype');
 }
 
 * {

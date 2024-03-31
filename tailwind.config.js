@@ -2,7 +2,14 @@
 module.exports = {
   content: ["./index.html", "./website.js"],
   theme: {
-    extend: {},
+    fontFamily: {
+      'body': ['Charcoal'],
+    },
+    fontSize: {
+      '10xl': '4rem',
+    },
+    extend: {
+    },
   },
   plugins: [],
 }
